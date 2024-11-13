@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md sticky-top py-0">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img class="logo" src="public/Logo.jpg" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarTogglerDemo02"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- carousel -->
+    <div class="slider">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="slide-text">
+              <span>Porsche 911 GT3</span>
+            </div>
+            <img
+              src="public/car_images/slider3.jpeg"
+              class="d-block w-100"
+              alt="slider_image"
+            />
+          </div>
+          <div class="carousel-item">
+            <div class="slide-text">
+              <span>BMW 330i M Sport</span>
+            </div>
+            <img
+              src="public/car_images/slider1.jpeg"
+              class="d-block w-100"
+              alt="slider_image"
+            />
+          </div>
+          <div class="carousel-item">
+            <div class="slide-text">
+              <span>Nissan GTR R35</span>
+            </div>
+            <img
+              src="public/car_images/slider2.jpeg"
+              class="d-block w-100"
+              alt="slider_image"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- about us -->
+    <div class="about py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-text p-4">
+              <h1 class="mb-4 fw-bold" style="color: var(--primary-color)">
+                Who We Are
+              </h1>
+              <p style="color: var(--secondary-color)">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Cupiditate rem cum enim itaque totam mollitia, labore vitae
+                saepe est magnam quibusdam non in iure nam. Doloribus aliquid
+                sunt laboriosam ab. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Magni, provident veritatis et error suscipit
+                eos, est velit dolores perferendis asperiores facere quas
+                laborum recusandae, delectus accusamus dicta maiores earum unde?
+              </p>
+              <p style="color: var(--secondary-color)">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+                et vitae nemo suscipit mollitia ratione reiciendis dolor aliquid
+                quia, iste numquam quis doloremque temporibus ducimus, minima in
+                magni obcaecati odit.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about-img">
+              <img
+                src="public/car_images/slide3.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- car display -->
+    <div class="content py-5">
+      <div class="container">
+        <h1
+          class="text-center mb-5"
+          style="color: var(--primary-color); text-shadow: 2px 2px 2px #fcfcfc"
+        >
+          Our Instocks
+        </h1>
+        <div class="car-div"></div>
+      </div>
+    </div>
+
+    <!-- services -->
+    <div class="services">
+      <div class="container py-5">
+        <h1
+          class="text-center mb-4 fw-bold"
+          style="color: var(--primary-color); text-shadow: 2px 2px 2px #b3b3b3"
+        >
+          Our Services
+        </h1>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-item text-center p-4">
+              <img
+                class="img-fluid"
+                src="public/services_images/delivery.jpg"
+                alt=""
+              />
+              <h3 class="mt-4" style="color: var(--primary-color)">
+                Fast Delivery
+              </h3>
+              <p style="color: var(--secondary-color)">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quibusdam, officiis.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item text-center p-4">
+              <img
+                class="img-fluid"
+                src="public/services_images/support.jpg"
+                alt=""
+              />
+              <h3 class="mt-4" style="color: var(--primary-color)">
+                24/7 Support
+              </h3>
+              <p style="color: var(--secondary-color)">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quibusdam, officiis.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item text-center p-4">
+              <img
+                class="img-fluid"
+                src="public/services_images/payment.jpg"
+                alt=""
+              />
+              <h3 class="mt-4" style="color: var(--primary-color)">
+                Easy Payment
+              </h3>
+              <p style="color: var(--secondary-color)">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quibusdam, officiis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- partner div  -->
+    <div class="partner">
+      <div class="container py-5">
+        <h1 class="text-center mb-5" style="color: var(--primary-color)">
+          Our Partners
+        </h1>
+        <div class="partnerDiv mb-5 gap-5">
+          <div class="text-center">
+            <img
+              class="img-fluid partner-img"
+              src="public/car_images/BMW Logo.jfif"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <img
+              class="img-fluid partner-img"
+              src="public/car_images/Audi logo.jfif"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <img
+              class="img-fluid partner-img"
+              src="public/car_images/Ford Logo PNG.jfif"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <img
+              class="img-fluid partner-img"
+              src="public/car_images/Mercedes-Benz Logo Black.jfif"
+              alt=""
+            />
+          </div>
+          <div class="text-center">
+            <img
+              class="img-fluid partner-img"
+              src="public/car_images/Toyota Logo.jfif"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="footerDiv p-4">
+        <div class="contact text-white">
+          <h3 class="mb-4">Contact Us</h3>
+          <p class="fs-4" style="color: var(--primary-color)">
+            Win Motor Myanamr Company Limited
+          </p>
+          <p style="color: #ffeb3b">
+            No.11, 1st Floor, Pyay Street, Yangon, Myanmar
+          </p>
+          <h3 class="mb-4" style="color: var(--primary-color)">
+            +95 9422243666
+          </h3>
+          <p style="color: #ffeb3b">Email: 6V0f1@example.com</p>
+          <p style="color: #ffeb3b">www.winmotormyanmar.com</p>
+          <div></div>
+        </div>
+        <div class="links text-white">
+          <h3 class="mb-4" style="color: #ffeb3b">Links</h3>
+          <p><a href="#" class="nav-link text-white">Home</a></p>
+          <p><a href="#" class="nav-link text-white">About</a></p>
+          <p><a href="#" class="nav-link text-white">Contact</a></p>
+          <p><a href="#" class="nav-link text-white">Privacy Policy</a></p>
+          <p><a href="#" class="nav-link text-white">Terms & Conditions</a></p>
+        </div>
+        <div class="map">
+          <div
+            style="
+              position: relative;
+              overflow: hidden;
+              padding-top: 56.25%;
+              height: 0;
+              max-width: 100%;
+              height: auto;
+            "
+          >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2700.367682605706!2d96.13298961277937!3d16.831484929141265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ssg!4v1731505753092!5m2!1sen!2ssg"
+              width="600"
+              height="450"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+              "
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="fontawesome-free-6.6.0-web/js/all.min.js"></script>
+  <script type="module" src="cars.js"></script>
+  <script type="module" src="script.js"></script>
+</html>
