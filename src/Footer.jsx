@@ -4,7 +4,7 @@ export default function Footer() {
         <div className="footer">
             <div className="footerDiv p-4">
                 <div className="contact text-white">
-                <h3 className="mb-4" style={{color: "#ffeb3b"}}>Contact Us</h3>
+                <h3 className="mb-4" style={{color: "#ABE188"}}>Contact Us</h3>
                 <p className="fs-4" style={{color: "var(--primary-color)"}}>
                     Win Motor Myanamr Company Limited
                 </p>
@@ -19,7 +19,7 @@ export default function Footer() {
                 <div></div>
                 </div>
                 <div className="links text-white">
-                <h3 className="mb-4" style={{color: "#ffeb3b"}}>Links</h3>
+                <h3 className="mb-4" style={{color: "#ABE188"}}>Links</h3>
                 <p><a href="#" className="nav-link text-white">Home</a></p>
                 <p><a href="#" className="nav-link text-white">About</a></p>
                 <p><a href="#" className="nav-link text-white">Contact</a></p>
@@ -36,10 +36,11 @@ export default function Footer() {
                     height: "auto",
                     }}
                 >
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d954.7310342301797!2d96.1320378!3d16.8301192!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smm!4v1732366205231!5m2!1sen!2smm" 
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d401.3519082938324!2d96.11312787897198!3d16.85984175847764!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c195628a7cdb69%3A0x7e1b71ad7278a438!2sWin%20Motor%20Myanmar!5e0!3m2!1sen!2smm!4v1732732854448!5m2!1sen!2smm" 
                         width="600" 
                         height="300" 
-                        style={{border:0}} 
+                        style={{border:"0"}} 
                         allowFullScreen="" 
                         loading="lazy" 
                         referrerPolicy="no-referrer-when-downgrade">

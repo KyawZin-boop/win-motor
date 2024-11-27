@@ -35,7 +35,7 @@ export default function About() {
             },
         });
         left.from(".slide-in-left", {
-            x: 300,
+            x: 50,
             opacity: 0
         })
         left.to(".slide-in-left", {
@@ -51,7 +51,7 @@ export default function About() {
                 <div className="row">
                 <div className="col-md-6 slide-in-right">
                     <div className="about-text p-4">
-                    <h1 className="mb-4 fw-bold" style={{color: "var(--primary-color)"}}>
+                    <h1 className="mb-4 fw-bold" style={{color: "var(--primary-color)",  textShadow: "2px 2px 2px #a1a1a1"}}>
                         Who We Are
                     </h1>
                     <p style={{color: "var(--secondary-color)"}}>
@@ -86,7 +86,7 @@ export default function About() {
                     <div className="about-img">
                     <img
                         src="/aboutUs.jpg"
-                        className="img-fluid"
+                        className="img-fluid shadow-sm rounded"
                         alt=""
                     />
                     </div>

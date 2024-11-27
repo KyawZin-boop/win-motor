@@ -93,14 +93,14 @@ export default function RoleCar(){
                 </div>
                 <div className="col-md-6">
                     <div className="about-text p-4">
-                        <h1 className="mb-4 fw-bold left" style={{color: "var(--primary-color)"}}>
+                        <h1 className="mb-4 fw-bold left" style={{color: "var(--primary-color)",  textShadow: "2px 2px 2px #a1a1a1"}}>
                             We Are Dedicated to Provide Quality Service
                         </h1>
                         <p style={{color: "var(--secondary-color)"}} className="left">
-                            Livam Automotive သည် Geely Auto Group နှင့် Lifan Technology (Group) Co.Ltd တို့ကြား 
+                            Livan Automotive သည် Geely Auto Group နှင့် Lifan Technology (Group) Co.Ltd တို့ကြား 
                             ဖက်စပ်လုပ်ကိုင်သည့် အမှတ်တံဆိပ်ဖြစ်ပြီး ၎င်းတို့ဖက်စပ်လုပ်ငန်းသည် Geely Auto Group ၏ 
                             လက်ရှိပလပ်ဖောင်းများကို အသုံးပြုပြီး Livan နှင့် Maple အမှတ်တံဆိပ်များအောက်တွင် 
-                            <i> Battery Electric Vehicle (BEV)</i> များကို အထူးရည်ရွယ်ထုတ်လုပ်ပါသည်။
+                            <i style={{color: "var(--primary-color)"}}> Battery Electric Vehicle (BEV)</i> များကို အထူးရည်ရွယ်ထုတ်လုပ်ပါသည်။
                         </p>
                         <p style={{color: "var(--secondary-color)"}} className="left">
                             Livan အမှတ်တံဆိပ်ကို Maple နှင့် Lifan နည်းပညာတို့ကြား ပေါင်းစပ်မှုဖြင့် 2022 ခုနှစ် ဇန်နဝါရီလ 24 

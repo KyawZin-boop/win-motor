@@ -29,8 +29,8 @@ export default function Services() {
                 <div className="col-md-4">
                     <div className="service-item text-center p-4">
                     <img
-                        className="img-fluid"
-                        src="/services_images/delivery.jpg"
+                        className="img-fluid shadow-sm"
+                        src="/services_images/support.jpg"
                         alt=""
                     />
                     <h3 className="mt-4" style={{color: "var(--primary-color)"}}>
@@ -45,8 +45,8 @@ export default function Services() {
                 <div className="col-md-4">
                     <div className="service-item text-center p-4">
                     <img
-                        className="img-fluid"
-                        src="/services_images/support.jpg"
+                        className="img-fluid shadow-sm"
+                        src="/services_images/warranty.jpg"
                         alt=""
                     />
                     <h3 className="mt-4" style={{color: "var(--primary-color)"}}>
@@ -61,8 +61,8 @@ export default function Services() {
                 <div className="col-md-4">
                     <div className="service-item text-center p-4">
                     <img
-                        className="img-fluid"
-                        src="/services_images/payment.jpg"
+                        className="img-fluid shadow-sm"
+                        src="/services_images/spare_part.jpg"
                         alt=""
                     />
                     <h3 className="mt-4" style={{color: "var(--primary-color)"}}>
