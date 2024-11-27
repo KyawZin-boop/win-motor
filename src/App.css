@@ -111,7 +111,7 @@ nav{
 
 /* content  */
 .content {
-  background-color: #98dada;
+  background-color: #1976D2;
 }
 .content .container h1{
   font-weight: bold;
@@ -149,7 +149,8 @@ nav{
   font-size: .9rem;
 }
 .car-div .card .view-details{
-  color: var(--secondary-color);
+  color: black;
+  font-size: .9rem;
 }
 .car-div .card .view-details:hover{
   transform: scale(1.05);

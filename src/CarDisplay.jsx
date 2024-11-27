@@ -6,7 +6,7 @@ export default function CarDisplay() {
             <div className="container">
                 <h1
                 className="text-center mb-5"
-                style={{color: "var(--primary-color)", textShadow: "2px 2px 2px #fcfcfc"}}
+                style={{color: "#FBF9FF", textShadow: "2px 2px 2px #a1a1a1"}}
                 >
                 Imported Electronic Vehicles
                 </h1>
@@ -32,13 +32,13 @@ export default function CarDisplay() {
                                             <p className="card-text">{spec.year}</p>
                                             </div> */}
                                             <img src={spec.image} alt={`${spec.name} car`} />
-                                            <div className="d-flex justify-content-between mt-2" style={{color: "var(--primary-color)", fontSize: "14px"}}>
+                                            <div className="d-flex justify-content-between mt-2" style={{color: "#FBF9FF", fontSize: "14px"}}>
                                                 <p><i className="fa-solid fa-gas-pump me-2"></i>80L</p>
                                                 <p><i className="fa-solid fa-gear me-2"></i>Manual</p>
                                                 <p><i className="fa-solid fa-user-group me-2"></i>2 pepople</p>
                                             </div>
                                             <div className="d-flex justify-content-between">
-                                            <p className="card-text mb-0">$ {spec.price}</p>
+                                            <p className="card-text mb-0 text-black">$ {spec.price}</p>
                                             <a href="#" className="nav-link view-details">View Details<i className="fa-solid fa-arrow-right-long" style={{ transform: 'rotate(-45deg)'}}></i></a>
                                             </div>
                                         </div>
