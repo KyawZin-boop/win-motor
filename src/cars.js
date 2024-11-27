@@ -139,8 +139,6 @@ const cars = [
                 year: 2024,
                 image: "/volkswagenID4/view4.jpg",
                 price: "100,000",
-                image: "/car_images/ford5.png",
-                price: "100,000",
                 color: "black",
             }
         ]
