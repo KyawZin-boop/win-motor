@@ -5,8 +5,8 @@ export default function CarDisplay() {
         <div className="content py-5">
             <div className="container">
                 <h1
-                className="text-center mb-5"
-                style={{color: "#FBF9FF", textShadow: "2px 2px 2px #a1a1a1"}}
+                className="text-center mb-5 fw-bold"
+                style={{color: "var(--white-color)", textShadow: "2px 2px 2px #a1a1a1"}}
                 >
                 Imported Electronic Vehicles
                 </h1>
@@ -15,7 +15,7 @@ export default function CarDisplay() {
                         <>
                         <div key={car.name + i}>
                             <div className="d-flex justify-content-between align-items-center mb-3">
-                                <h1 className="mb-0">{car.name.toUpperCase()}
+                                <h1 className="mb-0">{car.name}
                                     {/* <img className="car-logo" src={car.logo} alt={`${car.name} logo`} /> */}
                                 </h1>
                                 <a href={`#${car.name}`} className="text-decoration-none" style={{color: "white"}}>
@@ -38,8 +38,8 @@ export default function CarDisplay() {
                                                 <p><i className="fa-solid fa-user-group me-2"></i>2 pepople</p>
                                             </div>
                                             <div className="d-flex justify-content-between">
-                                            <p className="card-text mb-0 text-black">$ {spec.price}</p>
-                                            <a href="#" className="nav-link view-details">View Details<i className="fa-solid fa-arrow-right-long" style={{ transform: 'rotate(-45deg)'}}></i></a>
+                                                <p className="card-text mb-0 text-black">$ {spec.price}</p>
+                                                <a href="#" className="nav-link view-details">View Details<i className="fa-solid fa-arrow-right-long" style={{ transform: 'rotate(-45deg)'}}></i></a>
                                             </div>
                                         </div>
                                     </div>

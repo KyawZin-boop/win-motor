@@ -1,6 +1,6 @@
 const cars = [
     {
-        name: "toyota bz3",
+        name: "Toyota BZ3",
         logo: "/car_images/Toyota Logo.jfif",
         spec: [
             {
@@ -36,13 +36,13 @@ const cars = [
         ]
     },
     {
-        name: "toyota bz4",
+        name: "Toyota BZ4",
         logo: "/car_images/Toyota Logo.jfif",
         spec: [
             {
                 name: "Audi Q7",
                 year: 2024,
-                image: "/toyotaBZ4/view1.jpg",
+                image: "/toyotaBZ4/view1.webp",
                 price: "100,000",
                 color: "black",
             },
@@ -63,7 +63,7 @@ const cars = [
             {
                 name: "Audi",
                 year: 2024,
-                image: "/toyotaBZ4/view4.jpg",
+                image: "/toyotaBZ4/view4.webp",
                 price: "100,000",
                 color: "black",
             },
@@ -77,7 +77,7 @@ const cars = [
         ]
     },
     {
-        name: "audi etron q4",
+        name: "Audi Etron Q4",
         logo: "/car_images/Audi logo.jfif",
         spec: [
             {
@@ -114,7 +114,7 @@ const cars = [
         ]
     },
     {
-        name: "volkswagen id4",
+        name: "Volkswagen ID4",
         logo: "/car_images/Ford Logo PNG.jfif",
         spec: [
             {
@@ -144,7 +144,7 @@ const cars = [
         ]
     },
     {
-        name: "volswagen id6",
+        name: "Volswagen ID6",
         logo: "/car_images/Mercedes-Benz Logo Black.jfif",
         spec: [
             {
@@ -185,7 +185,7 @@ const cars = [
         ]
     },
     {
-        name: "volswagen id7",
+        name: "Volswagen ID7",
         logo: "/car_images/Mercedes-Benz Logo Black.jfif",
         spec: [
             {
@@ -205,7 +205,7 @@ const cars = [
             {
                 name: "MERCEDES BENZ",
                 year: 2024,
-                image: "/volkswagenID7/view3.png",
+                image: "/volkswagenID7/view3.webp",
                 price: "100,000",
                 color: "black",
             },

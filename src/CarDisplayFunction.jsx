@@ -4,7 +4,7 @@ export default function CarDisplayFunction() {
     cars.forEach(car => {
         carsDiv.innerHTML += `
                 <div className="d-flex justify-content-between align-items-center mb-3">
-                    <h1 className="mb-0">${car.name.toUpperCase()} <img className="car-logo" src="${car.logo}" alt="${car.name} logo" /></h1>
+                    <h1 className="mb-0">${car.name} <img className="car-logo" src="${car.logo}" alt="${car.name} logo" /></h1>
                     <a href="#${car.name}" className="text-decoration-none" style="color: white;">See more<i className="fa-solid fa-angles-right"></i></a>
                 </div>
                 <div className="car-display d-flex flex-row gap-3 mb-5" id="${car.name}"></div>

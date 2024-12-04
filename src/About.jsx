@@ -51,7 +51,7 @@ export default function About() {
                 <div className="row">
                 <div className="col-md-6 slide-in-right">
                     <div className="about-text p-4">
-                    <h1 className="mb-4 fw-bold" style={{color: "var(--primary-color)",  textShadow: "2px 2px 2px #a1a1a1"}}>
+                    <h1 className="mb-4 fw-bold" style={{color: "var(--main-text)",  textShadow: "2px 2px 2px #a1a1a1"}}>
                         Who We Are
                     </h1>
                     <p style={{color: "var(--secondary-color)"}}>
@@ -75,10 +75,10 @@ export default function About() {
                         <span className="d-block">အီးမေးလ်: <a href="paul@winmotormm.com">paul@winmotormm.com</a></span>
                     </p>
                     <p style={{color: "var(--secondary-color)"}} className="mb-0">
-                        ဖုန်း : <span style={{color: "var(--primary-color"}}>+95 (9) 254122287</span>
+                        ဖုန်း : <span style={{color: "var(--main-text"}}>+95 (9) 254122287</span>
                     </p>
                     <p style={{color: "var(--secondary-color)"}}>
-                    ဖုန်း : <span style={{color: "var(--primary-color"}}>+95 (9) 254122299</span>
+                    ဖုန်း : <span style={{color: "var(--main-text"}}>+95 (9) 254122299</span>
                     </p>
                     </div>
                 </div>

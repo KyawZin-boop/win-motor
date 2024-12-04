@@ -21,7 +21,7 @@ export default function Services() {
             <div className="container py-5">
                 <h1
                 className="text-center mb-4 fw-bold"
-                style={{color: "var(--primary-color)", textShadow: "2px 2px 2px #b3b3b3"}}
+                style={{color: "var(--main-text)", textShadow: "2px 2px 2px #f1f1f1"}}
                 >
                 Our Services
                 </h1>
@@ -33,10 +33,10 @@ export default function Services() {
                         src="/services_images/support.jpg"
                         alt=""
                     />
-                    <h3 className="mt-4" style={{color: "var(--primary-color)"}}>
+                    <h3 className="mt-4" style={{color: "var(--main-text)"}}>
                         After Sale Service
                     </h3>
-                    <p style={{color: "var(--secondary-color)"}}>
+                    <p style={{color: "var(--white-color)"}}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Quibusdam, officiis.
                     </p>
@@ -46,13 +46,13 @@ export default function Services() {
                     <div className="service-item text-center p-4">
                     <img
                         className="img-fluid shadow-sm"
-                        src="/services_images/warranty.jpg"
+                        src="/services_images/warranty.webp"
                         alt=""
                     />
-                    <h3 className="mt-4" style={{color: "var(--primary-color)"}}>
+                    <h3 className="mt-4" style={{color: "var(--main-text)"}}>
                         Warranty
                     </h3>
-                    <p style={{color: "var(--secondary-color)"}}>
+                    <p style={{color: "var(--white-color)"}}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Quibusdam, officiis.
                     </p>
@@ -62,13 +62,13 @@ export default function Services() {
                     <div className="service-item text-center p-4">
                     <img
                         className="img-fluid shadow-sm"
-                        src="/services_images/spare_part.jpg"
+                        src="/services_images/spare_part.webp"
                         alt=""
                     />
-                    <h3 className="mt-4" style={{color: "var(--primary-color)"}}>
+                    <h3 className="mt-4" style={{color: "var(--main-text)"}}>
                         Spare Part
                     </h3>
-                    <p style={{color: "var(--secondary-color)"}}>
+                    <p style={{color: "var(--white-color)"}}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Quibusdam, officiis.
                     </p>

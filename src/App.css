@@ -2,9 +2,11 @@
   /* --primary-color: #23CE6B;
   --secondary-color: #FFEB3B;
   --text-color: #042a2b; */
-  --primary-color: #E54A7A;
-  --secondary-color: #4f3e68;
-  --text-color: #F3FAFA;
+  --primary-color: #4176FC;
+  --secondary-color: #293854;
+  --white-color: #FDFFF7;
+  --text-color: #201F24;
+  --main-text: #e54a7a;
 }
 body{
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -27,7 +29,7 @@ nav{
   object-fit: contain;
 }
 .collapse .navbar-nav .nav-item:not(:last-child){
-  border-right: 2px solid var(--primary-color);
+  border-right: 2px solid var(--main-text);
 }
 .collapse ul li{
   padding: 0 48px;
@@ -35,12 +37,12 @@ nav{
 .nav-link{
   font-size: 1.05rem;
   font-weight: 500;
-  color: var(--secondary-color);
+  color: var(--text-color);
 }
 
 /* video */
 .video{
-  height: 90vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,7 +85,7 @@ nav{
 
 /* about */
 .about{
-  background-color: #F4F4F5;
+  /* background-color: var(--text-color); */
   background-color: #ecf2fe;
   /* border-bottom: 1px solid rgba(255, 255, 255, 0.55); */
 }
@@ -91,7 +93,7 @@ nav{
 
 /* role car */
 .roleCar{
-  background-color: #F4F4F5;
+  background-color: var(--secondary-color);
 }
 .roleCarCards .card{
   max-width: 280px;
@@ -111,11 +113,10 @@ nav{
 
 /* content  */
 .content {
-  background-color: #1976D2;
+  background-color: var(--primary-color);
 }
 .content .container h1{
-  font-weight: bold;
-  color: var(--text-color);
+  color: var(--white-color);
   text-shadow: 2px 2px 2px #000000;
 }
 .car-logo{
@@ -130,7 +131,7 @@ nav{
   justify-content: space-between;
 }
 .car-div .card{
-  background: rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.3);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
@@ -159,7 +160,8 @@ nav{
 
 
 .services{
-  background-color: #ecf2fe;
+  /* background-color: #ecf2fe; */
+  background-color: var(--secondary-color);
 }
 
 
@@ -185,6 +187,7 @@ nav{
 
 /* footer */
 .footer{
+  /* background-color: #042a2b; */
   background-color: #042a2b;
 }
 .footerDiv{
