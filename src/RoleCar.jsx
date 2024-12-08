@@ -100,7 +100,7 @@ export default function RoleCar(){
                             Livan Automotive သည် Geely Auto Group နှင့် Lifan Technology (Group) Co.Ltd တို့ကြား 
                             ဖက်စပ်လုပ်ကိုင်သည့် အမှတ်တံဆိပ်ဖြစ်ပြီး ၎င်းတို့ဖက်စပ်လုပ်ငန်းသည် Geely Auto Group ၏ 
                             လက်ရှိပလပ်ဖောင်းများကို အသုံးပြုပြီး Livan နှင့် Maple အမှတ်တံဆိပ်များအောက်တွင် 
-                            <i style={{color: "var(--main-text)"}}> Battery Electric Vehicle (BEV)</i> များကို အထူးရည်ရွယ်ထုတ်လုပ်ပါသည်။
+                            <i style={{color: "var(--link-color)"}}> Battery Electric Vehicle (BEV)</i> များကို အထူးရည်ရွယ်ထုတ်လုပ်ပါသည်။
                         </p>
                         <p style={{color: "var(--white-color)"}} className="left">
                             Livan အမှတ်တံဆိပ်ကို Maple နှင့် Lifan နည်းပညာတို့ကြား ပေါင်းစပ်မှုဖြင့် 2022 ခုနှစ် ဇန်နဝါရီလ 24 

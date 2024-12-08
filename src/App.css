@@ -2,11 +2,14 @@
   /* --primary-color: #23CE6B;
   --secondary-color: #FFEB3B;
   --text-color: #042a2b; */
-  --primary-color: #4176FC;
-  --secondary-color: #293854;
+  --primary-color: #1b699d;
+  --secondary-color: #ffffff;
   --white-color: #FDFFF7;
   --text-color: #201F24;
-  --main-text: #e54a7a;
+  --main-text: #d42059;
+  --link-color: #d6fb05;
+  --french-grey: #bdc3c7;
+  --silver-color: #a8a8a8;
 }
 body{
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -42,7 +45,7 @@ nav{
 
 /* video */
 .video{
-  height: 80vh;
+  height: 88.4vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +54,7 @@ nav{
 .video video{
   /* border-radius: 10px; */
   width: 100%;
-  height: 80vh;
+  height: 88.4vh;
   object-fit: cover;
 }
 
@@ -86,14 +89,25 @@ nav{
 /* about */
 .about{
   /* background-color: var(--text-color); */
-  background-color: #ecf2fe;
+  background-color: #1b699d;
   /* border-bottom: 1px solid rgba(255, 255, 255, 0.55); */
+}
+.about-text p span a{
+  color: #011f3d;
+}
+.about .row{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.55);
 }
 
 
 /* role car */
 .roleCar{
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
+  background-color: #1b699d;
+}
+.roleCar .container{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+  padding-bottom: 30px;
 }
 .roleCarCards .card{
   max-width: 280px;
@@ -114,6 +128,10 @@ nav{
 /* content  */
 .content {
   background-color: var(--primary-color);
+  /* background-color: #003366; */
+}
+.content .container{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.55);
 }
 .content .container h1{
   color: var(--white-color);
@@ -161,12 +179,12 @@ nav{
 
 .services{
   /* background-color: #ecf2fe; */
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 
 /* partner div  */
-.partner{
+/* .partner{
   background-color: #F5F5F7;
 }
 .partner h1{
@@ -183,12 +201,12 @@ nav{
   width: 230px;
   height: 200px;
   text-align: center;
-}
+} */
 
 /* footer */
 .footer{
   /* background-color: #042a2b; */
-  background-color: #042a2b;
+  background-color: #003366;
 }
 .footerDiv{
   display: flex;

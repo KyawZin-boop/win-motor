@@ -6,7 +6,7 @@ export default function CarDisplay() {
             <div className="container">
                 <h1
                 className="text-center mb-5 fw-bold"
-                style={{color: "var(--white-color)", textShadow: "2px 2px 2px #a1a1a1"}}
+                style={{color: "var(--main-text)", textShadow: "2px 2px 2px #a1a1a1"}}
                 >
                 Imported Electronic Vehicles
                 </h1>
