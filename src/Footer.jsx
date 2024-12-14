@@ -4,22 +4,22 @@ export default function Footer() {
         <div className="footer">
             <div className="footerDiv p-4">
                 <div className="contact text-white">
-                <h3 className="mb-4" style={{color: "#ABE188"}}>Contact Us</h3>
-                <p className="fs-4" style={{color: "var(--primary-color)"}}>
+                <h3 className="mb-4 fw-bold">Contact Us</h3>
+                <p className="fs-4" style={{color: "var(--link-color)"}}>
                     Win Motor Myanamr Company Limited
                 </p>
                 <p>
                     Thamine Train Station Road, Yangon, Myanmar, 11061
                 </p>
-                <h3 className="mb-4" style={{color: "var(--primary-color)"}}>
+                <h3 className="mb-4" style={{color: "var(--link-color)"}}>
                     +95 9 254 122 299
                 </h3>
                 <p>Email: info@winmotormm.com</p>
-                <p>www.winmotormyanmar.com</p>
+                <p style={{color: "var(--link-color)"}}>www.winmotormyanmar.com</p>
                 <div></div>
                 </div>
                 <div className="links text-white">
-                <h3 className="mb-4" style={{color: "#ABE188"}}>Links</h3>
+                <h3 className="mb-4 fw-bold">Links</h3>
                 <p><a href="#" className="nav-link text-white">Home</a></p>
                 <p><a href="#" className="nav-link text-white">About</a></p>
                 <p><a href="#" className="nav-link text-white">Contact</a></p>

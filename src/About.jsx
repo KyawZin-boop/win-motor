@@ -75,10 +75,10 @@ export default function About() {
                         <span className="d-block">အီးမေးလ်: <a href="paul@winmotormm.com">paul@winmotormm.com</a></span>
                     </p>
                     <p style={{color: "var(--secondary-color)"}} className="mb-0">
-                        ဖုန်း : <span style={{color: "var(--main-text"}}>+95 (9) 254122287</span>
+                        ဖုန်း : <span style={{color: "var(--link-color"}}>+95 (9) 254122287</span>
                     </p>
                     <p style={{color: "var(--secondary-color)"}}>
-                    ဖုန်း : <span style={{color: "var(--main-text"}}>+95 (9) 254122299</span>
+                    ဖုန်း : <span style={{color: "var(--link-color"}}>+95 (9) 254122299</span>
                     </p>
                     </div>
                 </div>

@@ -18,7 +18,7 @@ export default function Services() {
 
     return (
         <div className="services">
-            <div className="container py-5">
+            <div className="container py-4">
                 <h1
                 className="text-center mb-4 fw-bold"
                 style={{color: "var(--main-text)", textShadow: "2px 2px 2px #f1f1f1"}}
@@ -33,7 +33,7 @@ export default function Services() {
                         src="/services_images/support.jpg"
                         alt=""
                     />
-                    <h3 className="mt-4" style={{color: "var(--main-text)"}}>
+                    <h3 className="mt-4" style={{color: "var(--link-color)"}}>
                         After Sale Service
                     </h3>
                     <p style={{color: "var(--white-color)"}}>
@@ -49,7 +49,7 @@ export default function Services() {
                         src="/services_images/warranty.webp"
                         alt=""
                     />
-                    <h3 className="mt-4" style={{color: "var(--main-text)"}}>
+                    <h3 className="mt-4" style={{color: "var(--link-color)"}}>
                         Warranty
                     </h3>
                     <p style={{color: "var(--white-color)"}}>
@@ -65,7 +65,7 @@ export default function Services() {
                         src="/services_images/spare_part.webp"
                         alt=""
                     />
-                    <h3 className="mt-4" style={{color: "var(--main-text)"}}>
+                    <h3 className="mt-4" style={{color: "var(--link-color)"}}>
                         Spare Part
                     </h3>
                     <p style={{color: "var(--white-color)"}}>
