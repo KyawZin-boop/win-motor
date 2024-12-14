@@ -7,7 +7,7 @@
   --white-color: #FDFFF7;
   --text-color: #201F24;
   --main-text: #d42059;
-  --link-color: #d6fb05;
+  --link-color: #e1ff3a;
   --french-grey: #bdc3c7;
   --silver-color: #a8a8a8;
 }
@@ -96,17 +96,21 @@ nav{
   color: #011f3d;
 }
 .about .row{
-  border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.55); */
 }
 
 
 /* role car */
 .roleCar{
   /* background-color: var(--secondary-color); */
-  background-color: #1b699d;
+  background-color: #4277ac;
+}
+.roleCar .about-text{
+  background-color: #29c5c2;
+  border-radius: 10px;
 }
 .roleCar .container{
-  border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.55); */
   padding-bottom: 30px;
 }
 .roleCarCards .card{
@@ -131,7 +135,7 @@ nav{
   /* background-color: #003366; */
 }
 .content .container{
-  border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.55); */
 }
 .content .container h1{
   color: var(--white-color);
@@ -179,7 +183,7 @@ nav{
 
 .services{
   /* background-color: #ecf2fe; */
-  background-color: var(--primary-color);
+  background-color: #4277ac;
 }
 .services .service-item img{
   border-radius: 5px;
