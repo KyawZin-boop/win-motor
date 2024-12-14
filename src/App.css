@@ -163,6 +163,9 @@ nav{
   /* background-color: #ecf2fe; */
   background-color: var(--secondary-color);
 }
+.services .service-item img{
+  border-radius: 5px;
+}
 
 
 /* partner div  */
